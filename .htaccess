@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Drop a trailing slash on pages. Keep the project folder itself.
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} ^(.+)/+$
+    RewriteRule ^ %1 [R=301,L]
+
+    # Already inside public/. Do not rewrite again.
+    RewriteRule ^public/ - [L]
+
+    # Serve Laravel without putting public/ in the address bar.
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>

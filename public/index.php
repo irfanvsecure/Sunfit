@@ -17,4 +17,12 @@ require __DIR__.'/../vendor/autoload.php';
 /** @var Application $app */
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
+// When Apache rewrites /sunfitgc/* to /sunfitgc/public/*, keep links on /sunfitgc.
+$scriptName = str_replace('\\', '/', $_SERVER['SCRIPT_NAME'] ?? '');
+if (str_ends_with($scriptName, '/public/index.php')) {
+    $base = substr($scriptName, 0, -strlen('/public/index.php'));
+    $_SERVER['SCRIPT_NAME'] = $base.'/index.php';
+    $_SERVER['PHP_SELF'] = $base.'/index.php';
+}
+
 $app->handleRequest(Request::capture());
