@@ -33,12 +33,10 @@ Contact Sunfit General Contracting for a free project estimate.
       <h3 class="h-md">Request a consultation</h3>
       <form class="qform" data-email="info@sunfitgc.com">
         <div class="svc-chips">
-          <label><input type="checkbox" name="svc" value="Civil"><span>Civil</span></label>
-          <label><input type="checkbox" name="svc" value="Structural"><span>Structural</span></label>
-          <label><input type="checkbox" name="svc" value="Electrical"><span>Electrical</span></label>
-          <label><input type="checkbox" name="svc" value="Mechanical"><span>Mechanical</span></label>
-          <label><input type="checkbox" name="svc" value="Plumbing"><span>Plumbing</span></label>
-          <label><input type="checkbox" name="svc" value="Interior"><span>Interior</span></label>
+          <label><input type="checkbox" name="svc" value="Civil & Fit Out"><span>Civil &amp; Fit Out</span></label>
+          <label><input type="checkbox" name="svc" value="MEP"><span>MEP</span></label>
+          <label><input type="checkbox" name="svc" value="Demolition"><span>Demolition</span></label>
+          <label><input type="checkbox" name="svc" value="Authority Approvals"><span>Approvals</span></label>
         </div>
         <div class="fld"><input id="f1" name="Name" placeholder=" " required><label for="f1">Full name*</label></div>
         <div class="fld"><input id="f2" name="Phone" type="tel" placeholder=" " required><label for="f2">Phone*</label></div>

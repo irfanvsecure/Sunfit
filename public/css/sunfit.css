@@ -1410,3 +1410,12 @@ form{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:28px}
 .hs-slide{position:relative;inset:auto;grid-area:1/1}
 .hs-content{padding:130px 0 230px}
 @media (max-width:640px){.hero{min-height:680px}.hs-content{padding:120px 0 180px}}
+
+.mvv.trade-grid .mv{min-height:0;padding:28px 26px}
+.mvv.trade-grid .mv h3{font-size:clamp(20px,1.5vw,26px);margin-top:28px}
+.mvv.trade-grid.cols-4{grid-template-columns:repeat(4,1fr)}
+@media (max-width:1199px){.mvv.trade-grid.cols-4{grid-template-columns:1fr 1fr}}
+@media (max-width:640px){.mvv.trade-grid.cols-4,.mvv.trade-grid.cols-3{grid-template-columns:1fr}}
+.filters a{display:inline-flex;align-items:center;border:1px solid var(--line);background:transparent;border-radius:100px;padding:10px 20px;font-weight:600;font-size:14px;color:var(--ink)}
+.filters a.on,.filters a:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.dd{min-width:320px}

@@ -54,12 +54,12 @@ Sunfit General Contracting delivers civil, structural, electrical, mechanical, p
   <div class="hs-prog"><i></i></div>
 </section>
 
-<div class="sstrip"><div class="wrap"><div class="ss-in g4" data-r="up"><a href="#services" class="ss" data-p="0"><i><svg viewBox="0 0 24 24"><path d="M2 20h20M4 20V9l8-5 8 5v11M9 20v-6h6v6"/></svg></i><b>Civil Works</b><small>Foundations &amp; earthworks</small></a><a href="#services" class="ss" data-p="1"><i><svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V3h14v18M5 8h14M5 14h14M10 3v18M14 3v18"/></svg></i><b>Structural Works</b><small>RCC &amp; steel frames</small></a><a href="#services" class="ss" data-p="2"><i><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 1v3M12 20v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M1 12h3M20 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg></i><b>MEP Works</b><small>Electrical, HVAC &amp; plumbing</small></a><a href="#services" class="ss" data-p="3"><i><svg viewBox="0 0 24 24"><path d="M4 11V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3"/><path d="M2 13a2 2 0 0 1 4 0v2h12v-2a2 2 0 0 1 4 0v5H2z"/><path d="M5 18v2M19 18v2"/></svg></i><b>Interior Design</b><small>Design &amp; fit-out</small></a></div></div></div>
+<div class="sstrip"><div class="wrap"><div class="ss-in g4" data-r="up"><a href="{{ route('services.civil-fit-out') }}" class="ss"><i><svg viewBox="0 0 24 24"><path d="M2 20h20M4 20V9l8-5 8 5v11M9 20v-6h6v6"/></svg></i><b>Civil &amp; Fit Out</b><small>Structure, civil, interior &amp; joinery</small></a><a href="{{ route('services.mep-works') }}" class="ss"><i><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 1v3M12 20v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M1 12h3M20 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg></i><b>MEP Works</b><small>Mechanical, electrical &amp; plumbing</small></a><a href="{{ route('services.demolition-works') }}" class="ss"><i><svg viewBox="0 0 24 24"><path d="M4 20h16M7 20V10l5-4 5 4v10"/></svg></i><b>Demolition Works</b><small>Selective removal &amp; strip-out</small></a><a href="{{ route('services.authority-approvals') }}" class="ss"><i><svg viewBox="0 0 24 24"><path d="M12 3l8 4v6c0 5-3.4 7.6-8 9-4.6-1.4-8-4-8-9V7z"/></svg></i><b>Authority Approvals</b><small>ADM, ADCD, permits &amp; TAQA</small></a></div></div></div>
 
 <section>
   <div class="ticker"><div class="tick-track">
-    <span>Civil Works</span><span>Structural Works</span><span>MEP Works</span><span>Interior Design</span>
-    <span>Civil Works</span><span>Structural Works</span><span>MEP Works</span><span>Interior Design</span>
+    <span>Civil &amp; Fit Out</span><span>MEP Works</span><span>Demolition Works</span><span>Authority Approvals</span>
+    <span>Civil &amp; Fit Out</span><span>MEP Works</span><span>Demolition Works</span><span>Authority Approvals</span>
   </div></div>
 </section>
 
@@ -97,14 +97,14 @@ Sunfit General Contracting delivers civil, structural, electrical, mechanical, p
       <p data-r="up" style="--dl:.2s">Hire us for a single trade or hand us the complete project. Tap a panel to explore what each service covers.</p>
     </div>
     <div class="panels" data-r="up">
-      <div class="panel on"><img src="{{ asset('images/civil.webp') }}" alt="Civil works"><span class="p-num">01</span><span class="p-vert">Civil Works</span>
-        <div class="p-body"><h3>Civil Works</h3><p>Site preparation, excavation, foundations, block work and external works delivered to spec and on schedule.</p><ul><li>Earthworks</li><li>Foundations</li><li>Block Work &amp; Plaster</li><li>Roads &amp; Paving</li></ul><a href="{{ route('services.civil-works') }}" class="pill sun">Explore Service <span class="o"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a></div></div>
-      <div class="panel"><img src="{{ asset('images/structural.webp') }}" alt="Structural works"><span class="p-num">02</span><span class="p-vert">Structural Works</span>
-        <div class="p-body"><h3>Structural Works</h3><p>Reinforced concrete and steel structures, extensions, mezzanines and strengthening built for safety and long life.</p><ul><li>RCC Frames</li><li>Steel Structures</li><li>Formwork &amp; Rebar</li><li>Repair &amp; Strengthening</li></ul><a href="{{ route('services.structural-works') }}" class="pill sun">Explore Service <span class="o"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a></div></div>
-      <div class="panel"><img src="{{ asset('images/mechanical.webp') }}" alt="MEP works"><span class="p-num">03</span><span class="p-vert">MEP Works</span>
-        <div class="p-body"><h3>MEP Works</h3><p>Electrical, mechanical and plumbing works under one contract — power, HVAC, fire-fighting, water supply and drainage.</p><ul><li>Electrical &amp; ELV</li><li>HVAC &amp; Ventilation</li><li>Fire-Fighting</li><li>Plumbing &amp; Drainage</li></ul><a href="{{ route('services.mep-works') }}" class="pill sun">Explore Service <span class="o"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a></div></div>
-      <div class="panel"><img src="{{ asset('images/interior.webp') }}" alt="Interior designing works"><span class="p-num">04</span><span class="p-vert">Interior Design</span>
-        <div class="p-body"><h3>Interior Designing Works</h3><p>Design-and-build interiors and fit-outs — 3D concepts, ceilings, partitions, joinery, flooring and finishes.</p><ul><li>3D Design</li><li>Ceilings &amp; Partitions</li><li>Joinery</li><li>Flooring &amp; Finishes</li></ul><a href="{{ route('services.interior-design-works') }}" class="pill sun">Explore Service <span class="o"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a></div></div>
+      <div class="panel on"><img src="{{ asset('images/civil.webp') }}" alt="Civil and fit-out works"><span class="p-num">01</span><span class="p-vert">Civil &amp; Fit Out</span>
+        <div class="p-body"><h3>Civil &amp; Fit Out Works</h3><p>Structural frames, civil works, interior design and joinery, delivered as one fit-out.</p><ul><li>Structural Works</li><li>Civil works</li><li>Interior designing works</li><li>Joinery works</li></ul><a href="{{ route('services.civil-fit-out') }}" class="pill sun">Explore Service <span class="o"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a></div></div>
+      <div class="panel"><img src="{{ asset('images/mechanical.webp') }}" alt="MEP works"><span class="p-num">02</span><span class="p-vert">MEP Works</span>
+        <div class="p-body"><h3>MEP Works</h3><p>Mechanical, electrical, plumbing and drainage, coordinated as one system.</p><ul><li>Mechanical Works</li><li>Electrical Works</li><li>Plumbing &amp; drainage</li></ul><a href="{{ route('services.mep-works') }}" class="pill sun">Explore Service <span class="o"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a></div></div>
+      <div class="panel"><img src="{{ asset('images/g10.webp') }}" alt="Demolition works"><span class="p-num">03</span><span class="p-vert">Demolition</span>
+        <div class="p-body"><h3>Demolition Works</h3><p>Selective demolition and strip-out that clears the site for the next build, kept controlled and safe.</p><ul><li>Selective demolition</li><li>Strip-out</li><li>Structural removal</li><li>Clearance</li></ul><a href="{{ route('services.demolition-works') }}" class="pill sun">Explore Service <span class="o"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a></div></div>
+      <div class="panel"><img src="{{ asset('images/about2.webp') }}" alt="Authority approvals"><span class="p-num">04</span><span class="p-vert">Approvals</span>
+        <div class="p-body"><h3>Authority Approvals</h3><p>ADM, ADCD, maintenance permits and TAQA approvals, prepared alongside the construction.</p><ul><li>ADM / ADCD</li><li>Maintenance permits</li><li>TAQA Approvals</li></ul><a href="{{ route('services.authority-approvals') }}" class="pill sun">Explore Service <span class="o"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a></div></div>
     </div>
     <div class="stats">
       <div class="stat" data-r="up"><b><span data-count="15">0</span><em>+</em></b><span>Years of expertise</span></div>
@@ -123,7 +123,7 @@ Sunfit General Contracting delivers civil, structural, electrical, mechanical, p
       <div><span class="eyebrow" data-r="up"><i></i>Selected projects</span>
         <h2 class="h-lg lines" style="margin-top:20px"><span class="ln"><span>Work that speaks</span></span><span class="ln"><span>for <span class="hl">itself.</span></span></span></h2></div>
       <div class="filters" data-r="up" style="justify-self:end;--dl:.2s">
-        <button class="on" data-f="all">All</button><button data-f="commercial">Commercial</button><button data-f="industrial">Industrial</button><button data-f="interior">Interior</button>
+        <button class="on" data-f="all">All</button><button data-f="commercial">Commercial</button><button data-f="industrial">Industrial</button><button data-f="interior">Interior</button><a href="{{ route('projects.ongoing') }}">Ongoing</a><a href="{{ route('projects.completed') }}">Completed</a>
       </div>
     </div>
   </div>
@@ -218,12 +218,10 @@ Sunfit General Contracting delivers civil, structural, electrical, mechanical, p
       <h3 class="h-md">Request a consultation</h3>
       <form class="qform" data-email="info@sunfitgc.com">
         <div class="svc-chips">
-          <label><input type="checkbox" name="svc" value="Civil"><span>Civil</span></label>
-          <label><input type="checkbox" name="svc" value="Structural"><span>Structural</span></label>
-          <label><input type="checkbox" name="svc" value="Electrical"><span>Electrical</span></label>
-          <label><input type="checkbox" name="svc" value="Mechanical"><span>Mechanical</span></label>
-          <label><input type="checkbox" name="svc" value="Plumbing"><span>Plumbing</span></label>
-          <label><input type="checkbox" name="svc" value="Interior"><span>Interior</span></label>
+          <label><input type="checkbox" name="svc" value="Civil & Fit Out"><span>Civil &amp; Fit Out</span></label>
+          <label><input type="checkbox" name="svc" value="MEP"><span>MEP</span></label>
+          <label><input type="checkbox" name="svc" value="Demolition"><span>Demolition</span></label>
+          <label><input type="checkbox" name="svc" value="Authority Approvals"><span>Approvals</span></label>
         </div>
         <div class="fld"><input id="f1" name="Name" placeholder=" " required><label for="f1">Full name*</label></div>
         <div class="fld"><input id="f2" name="Phone" type="tel" placeholder=" " required><label for="f2">Phone*</label></div>
