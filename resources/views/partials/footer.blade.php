@@ -5,7 +5,7 @@
       <a href="{{ route('contact') }}" class="pill sun">Start Your Project <span class="o"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span></a>
     </div>
     <div class="foot-grid">
-      <div><a href="{{ route('home') }}" class="brand" aria-label="Sunfit General Contracting"><img src="{{ asset('images/logolight.webp') }}" alt="Sunfit General Contracting"></a>
+      <div><a href="{{ route('home') }}" class="brand"><img src="{{ asset('images/logolight.webp') }}" alt="Sunfit logo"><span><b>SUNFIT</b><small style="color:rgba(255,255,255,.5)">General Contracting</small></span></a>
         <p style="margin-top:20px;max-width:300px">Civil and fit-out, MEP, demolition and authority approvals — built right, built safe, built on time.</p>
         <div class="socials"><a href="#" aria-label="Facebook">FB</a><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="LinkedIn">IN</a><a href="#" aria-label="YouTube">YT</a></div></div>
       <div><h4>Services</h4><ul><li><a href="{{ route('services.civil-fit-out') }}">Civil &amp; Fit Out Works</a></li><li><a href="{{ route('services.mep-works') }}">MEP Works</a></li><li><a href="{{ route('services.demolition-works') }}">Demolition Works</a></li><li><a href="{{ route('services.authority-approvals') }}">Authority Approvals</a></li></ul></div>
